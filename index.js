@@ -3,11 +3,11 @@ function theBeatlesPlay(musicians, instruments){
 const array = []
 let counter = 0
   for(counter; counter < musicians.lenght; counter++){
-    array[counter] = `${musicians[counter]} plays ${instruments[counter]}`
+    array.push(`${musicians[counter]} plays ${instruments[counter]}`)
   }
   return array
 
-
+  
 }
 function iLoveTheBeatles(number){
 const arr = []
@@ -16,8 +16,8 @@ do{
   arr.push("I love the Beatles!")
   number++
 }while(number < 15)
-
-
+  
+  
 }
 
 function johnLennonFacts(array_facts){

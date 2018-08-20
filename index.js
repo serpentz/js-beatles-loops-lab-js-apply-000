@@ -21,10 +21,12 @@ do{
 }
 
 function johnLennonFacts(array_facts){
-const arr = []
-  let i = 0;
-  while(i<array_facts.lenght){
-    arr.push(array_facts[i] + "!!!")
-  }
-  return arr
-}
+  const shoutedFacts = []
+ 
+   let i = 0
+   while (i < facts.length) {
+     shoutedFacts.push(`${facts[i]}!!!`)
+     i++
+   }
+ 
+   return shoutedFacts}

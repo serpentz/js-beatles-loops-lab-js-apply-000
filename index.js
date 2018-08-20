@@ -22,9 +22,9 @@ do{
 
 function johnLennonFacts(array_facts){
 const arr = []
-  var i = 0;
+  let i = 0;
   while(i<array_facts.lenght){
-    arr[i] = array_facts[i] + "!!!";
+    arr.push(array_facts[i] + "!!!")
   }
   return arr
 }

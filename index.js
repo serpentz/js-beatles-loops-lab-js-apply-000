@@ -20,7 +20,7 @@ do{
 
 }
 
-function johnLennonFacts(array_facts){
+function johnLennonFacts(facts){
   const shoutedFacts = []
 
    let i = 0
